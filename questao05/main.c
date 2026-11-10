@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-float maior_elemento(float *numeros, int tam){
+int maior_elemento(float *numeros, int tam){
     float *ptr_maior = numeros;
 
     for (float *p = numeros + 1; p < numeros + tam; p++) {

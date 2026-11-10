@@ -17,3 +17,5 @@ int main()
    }
     return 0;
 }
+
+//sim imprime a mesma coisa

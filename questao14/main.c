@@ -16,12 +16,13 @@ int main()
     }
 
     while(1){
-            printf("digite um numero (-1 para parar): ");
-            scanf("%d",&numero);
+        printf("digite um numero (-1 para parar): ");
+        scanf("%d",&numero);
 
-            if(numero == -1){
+        if(numero == -1){
             break;
         }
+
         if(quantidade == capacidade){
             capacidade *= 2;
 

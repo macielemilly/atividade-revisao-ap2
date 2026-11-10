@@ -7,9 +7,9 @@ int main () {
     int *p = NULL;
     int **q = NULL;
 
-    p = &valor; // Linha A - Identifique o erro sintatico
-    q = &p; // Linha B
-    **q = 100; // Linha C
+    p = &valor; //o erro estava nessa linha, p precisava receber o endereco de valor
+    q = &p;
+    **q = 100;
 
     printf ("Valor = %d\n", valor ) ;
     return 0;

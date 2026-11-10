@@ -13,7 +13,7 @@ int somar_elementos_ponteiro(int *numeros, int tam){
 int main()
 {
     int numeros[5] = {1, 2, 3, 4, 5};
-    int soma = somar_elementos_ponteiro(numeros, 6);
+    int soma = somar_elementos_ponteiro(numeros, 5);
 
     printf("Somatorio: %d", soma);
 
